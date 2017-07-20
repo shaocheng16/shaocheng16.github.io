@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "my first blog"
+title:  "phonon focusing"
 date:   2017-06-30 10:54:32 -0400
-categories: jekyll update
+categories: research
 ---
 
 			   _________________
