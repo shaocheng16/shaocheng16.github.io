@@ -5,25 +5,8 @@ date:   2017-06-30 10:54:32 -0400
 categories: research
 ---
 
-			   _________________
 
-			    IMAGING PHONONS
-			   _________________
-
-
-			       2017-06-30
-
-
-Table of Contents
-_________________
-
-1 Phonon scattering at interfaces
-.. 1.1 The kapitza problem
-.. 1.2 solid/solid interfaces
-
-
-1 Phonon scattering at interfaces
-=================================
+# Phonon scattering at interfaces
 
   - The heat-pulse technique was first demonstrated for solids by von
     Gutfeld and Nethercot in 1964.
@@ -46,8 +29,7 @@ _________________
       bolometer)
 
 
-1.1 The kapitza problem
-~~~~~~~~~~~~~~~~~~~~~~~
+##  The kapitza problem
 
   + Kapitza's experiments in 1941, sharp temperature gradient at the
     interface of a heated solid immersed in liquid He.
@@ -67,8 +49,7 @@ _________________
   [Wyatt and Page] https://daringfireball.net/projects/markdown/
 
 
-1.2 solid/solid interfaces
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+## solid/solid interfaces
 
   - total internal reflection at sepcially prepared solid/solid
     interfaces has been observed.
