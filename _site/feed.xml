@@ -1,22 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-06-30T16:51:21-04:00</updated><id>http://localhost:4000/</id><title type="html">Cheng Shao’s Blog</title><subtitle>my personal website.
-</subtitle><entry><title type="html">phonon focusing</title><link href="http://localhost:4000/research/2017/06/30/phonon-focusing.html" rel="alternate" type="text/html" title="phonon focusing" /><published>2017-06-30T10:54:32-04:00</published><updated>2017-06-30T10:54:32-04:00</updated><id>http://localhost:4000/research/2017/06/30/phonon-focusing</id><content type="html" xml:base="http://localhost:4000/research/2017/06/30/phonon-focusing.html">&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;		   _________________
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-07-21T14:19:05-04:00</updated><id>http://localhost:4000/</id><title type="html">Cheng Shao’s Blog</title><subtitle>my personal website.
+</subtitle><entry><title type="html">Ionic liquids: some links and resources</title><link href="http://localhost:4000/blog/2017/07/21/some-resource-for-ionic-liquid.html" rel="alternate" type="text/html" title="Ionic liquids: some links and resources" /><published>2017-07-21T00:00:00-04:00</published><updated>2017-07-21T00:00:00-04:00</updated><id>http://localhost:4000/blog/2017/07/21/some-resource-for-ionic-liquid</id><content type="html" xml:base="http://localhost:4000/blog/2017/07/21/some-resource-for-ionic-liquid.html">&lt;h2 id=&quot;structure&quot;&gt;Structure&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Prepare the .xyz file
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/vladislavivanistsev/RTIL-FF&quot;&gt;structures for some common room temperature ionic liquid&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ime.unicamp.br/~martinez/packmol/home.shtml&quot;&gt;&lt;em&gt;packmol&lt;/em&gt;&lt;/a&gt; to packing the molecules into a optimized configuration&lt;/li&gt;
+  &lt;li&gt;Generate the topology file by Topo Tool plugin in VMD&lt;/li&gt;
+  &lt;li&gt;One &lt;a href=&quot;http://paulllhuang.blogspot.com/search?q=lammps&quot;&gt;tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-		    IMAGING PHONONS
-		   _________________
+&lt;h2 id=&quot;potential&quot;&gt;Potential&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;OPLS-AA/AMBER framework
+    &lt;ul&gt;
+      &lt;li&gt;OPLS: optimized potential for liquid simulaiton, developed by Prof. Willian L. Jorgensen in 1988.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://pubs.acs.org/doi/abs/10.1021/ja00214a001&quot;&gt;JACS 110, 1657 (1988)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://pubs.acs.org/doi/abs/10.1021/ja9621760&quot;&gt;JACS 118, 11225 (1996)&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Parameters for Bmim
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://pubs.acs.org/doi/abs/10.1021/jp0362133&quot;&gt;Lopes&lt;/a&gt;, 2004, Modeling Ionic Liquids Using a Systematic All-Atom Force Field&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://pubs.acs.org/doi/abs/10.1021/jp063901o&quot;&gt;Lopes&lt;/a&gt;, 2006, Molecular Force Field for Ionic Liquids III&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://aip.scitation.org/doi/full/10.1063/1.2772268&quot;&gt;Bhargave&lt;/a&gt;, 2007, Refined potential model for atomistic simulations of ionic liquid [Bmim][PF6]&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Structure Prepare the .xyz file structures for some common room temperature ionic liquid packmol to packing the molecules into a optimized configuration Generate the topology file by Topo Tool plugin in VMD One tutorial</summary></entry><entry><title type="html">Scientific Writing</title><link href="http://localhost:4000/research/2017/07/21/links-for-writing.html" rel="alternate" type="text/html" title="Scientific Writing" /><published>2017-07-21T00:00:00-04:00</published><updated>2017-07-21T00:00:00-04:00</updated><id>http://localhost:4000/research/2017/07/21/links-for-writing</id><content type="html" xml:base="http://localhost:4000/research/2017/07/21/links-for-writing.html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=g3dkRsTqdDA&quot;&gt;How to Write a Great Research Paper (youtube)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=DeVjXINr5Wk&quot;&gt;How to Publish a Lot and Still Have a Life (youtube)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://abacus.bates.edu/~ganderso/biology/resources/writing/HTWtoc.html&quot;&gt;Writing tutorial from Botes College&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cgi.duke.edu/web/sciwriting/index.php&quot;&gt;Scientific Writing from Duke University&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">How to Write a Great Research Paper (youtube) How to Publish a Lot and Still Have a Life (youtube) Writing tutorial from Botes College Scientific Writing from Duke University</summary></entry><entry><title type="html">Ionic Liquids</title><link href="http://localhost:4000/research/2017/07/20/ionic-liquid.html" rel="alternate" type="text/html" title="Ionic Liquids" /><published>2017-07-20T10:54:32-04:00</published><updated>2017-07-20T10:54:32-04:00</updated><id>http://localhost:4000/research/2017/07/20/ionic-liquid</id><content type="html" xml:base="http://localhost:4000/research/2017/07/20/ionic-liquid.html">&lt;h3 id=&quot;what-is-ionic-liquids&quot;&gt;what is ionic liquids?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;In contrast to high temperature melts that are commomly referred as molten salts, ionic liquids are, as their name implies, salts that are liquid at low temperature - many at room temperature or below - and that in a molten form are composed wholly of ions. &lt;a href=&quot;http://lem.ch.unito.it/didattica/infochimica/Liquidi%20Ionici/Definition.html&quot;&gt;ref&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
+&lt;h3 id=&quot;properties-and-applications-of-ionic-liquids&quot;&gt;Properties and applications of ionic liquids&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;properties: &lt;a href=&quot;http://pubs.acs.org/doi/pdf/10.1021/sc300163n&quot;&gt;Ref&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;nonvolatile&lt;/li&gt;
+      &lt;li&gt;null flammability&lt;/li&gt;
+      &lt;li&gt;low melting point&lt;/li&gt;
+      &lt;li&gt;high ionic conductivity&lt;/li&gt;
+      &lt;li&gt;thermal and eletrochemical stability&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;applications:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://lem.ch.unito.it/didattica/infochimica/Liquidi%20Ionici/ApplicationsMap.html#M&quot;&gt;Overview&lt;/a&gt;
+  &lt;img src=&quot;/assets/IL_application.png&quot; alt=&quot;example&quot; title=&quot;applications of ionic liquids&quot; /&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.nature.com/nmat/journal/v8/n8/pdf/nmat2448.pdf&quot;&gt;Lithium batteries&lt;/a&gt;
+  &lt;img src=&quot;/assets/lithium_batteries_ionic-liquid.png&quot; alt=&quot;example&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-		       2017-06-30
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;h3 id=&quot;exsiting-problems&quot;&gt;Exsiting problems?&lt;/h3&gt;
 
-&lt;p&gt;Table of Contents
-&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;_____&lt;/p&gt;
-
-&lt;p&gt;1 Phonon scattering at interfaces
-.. 1.1 The kapitza problem
-.. 1.2 solid/solid interfaces&lt;/p&gt;
-
-&lt;h1 id=&quot;1-phonon-scattering-at-interfaces&quot;&gt;1 Phonon scattering at interfaces&lt;/h1&gt;
+&lt;h3 id=&quot;recent-researches-on-ionic-liqiods&quot;&gt;Recent researches on ionic liqiods&lt;/h3&gt;</content><author><name></name></author><summary type="html">what is ionic liquids? In contrast to high temperature melts that are commomly referred as molten salts, ionic liquids are, as their name implies, salts that are liquid at low temperature - many at room temperature or below - and that in a molten form are composed wholly of ions. ref</summary></entry><entry><title type="html">phonon focusing</title><link href="http://localhost:4000/research/2017/06/30/phonon-focusing.html" rel="alternate" type="text/html" title="phonon focusing" /><published>2017-06-30T10:54:32-04:00</published><updated>2017-06-30T10:54:32-04:00</updated><id>http://localhost:4000/research/2017/06/30/phonon-focusing</id><content type="html" xml:base="http://localhost:4000/research/2017/06/30/phonon-focusing.html">&lt;h1 id=&quot;phonon-scattering-at-interfaces&quot;&gt;Phonon scattering at interfaces&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;The heat-pulse technique was first demonstrated for solids by von
@@ -43,31 +87,32 @@ bolometer)&lt;/li&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;1.1 The kapitza problem&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-  + Kapitza's experiments in 1941, sharp temperature gradient at the
-    interface of a heated solid immersed in liquid He.
-  + Khalatnakov later realized that this thermal boundary resistance
-    could be explained from a simple acoustic mismatch theory.
-    + aoustic impedances Z= rhonu (rho is the density, nu is the speed
-      of sound)
-    + however, based on the acoustic impedance, he predict that the
-      average transmission coefficient between solid and liquid should
-      be approximately 1%, whereas the measured thermal boundary
-      resistances corresponded to a transmission coefficient of
-      approximately 50%.
-    + [Wyatt and Page] employed ballistic heat pulses to continuous scan
-      the incident angle of phonons at solid/liquid-He interface.
+&lt;h2 id=&quot;the-kapitza-problem&quot;&gt;The kapitza problem&lt;/h2&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;Kapitza’s experiments in 1941, sharp temperature gradient at the
+interface of a heated solid immersed in liquid He.&lt;/li&gt;
+  &lt;li&gt;Khalatnakov later realized that this thermal boundary resistance
+could be explained from a simple acoustic mismatch theory.
+    &lt;ul&gt;
+      &lt;li&gt;aoustic impedances Z= rhonu (rho is the density, nu is the speed
+of sound)&lt;/li&gt;
+      &lt;li&gt;however, based on the acoustic impedance, he predict that the
+average transmission coefficient between solid and liquid should
+be approximately 1%, whereas the measured thermal boundary
+resistances corresponded to a transmission coefficient of
+approximately 50%.&lt;/li&gt;
+      &lt;li&gt;[Wyatt and Page] employed ballistic heat pulses to continuous scan
+the incident angle of phonons at solid/liquid-He interface.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-  [Wyatt and Page] https://daringfireball.net/projects/markdown/
+&lt;p&gt;[Wyatt and Page] https://daringfireball.net/projects/markdown/&lt;/p&gt;
 
-
-1.2 solid/solid interfaces
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;h2 id=&quot;solidsolid-interfaces&quot;&gt;solid/solid interfaces&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;total internal reflection at sepcially prepared solid/solid
 interfaces has been observed.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">_________________</summary></entry><entry><title type="html">my first blog</title><link href="http://localhost:4000/jekyll/update/2017/06/30/my-first-blog.html" rel="alternate" type="text/html" title="my first blog" /><published>2017-06-30T10:54:32-04:00</published><updated>2017-06-30T10:54:32-04:00</updated><id>http://localhost:4000/jekyll/update/2017/06/30/my-first-blog</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/06/30/my-first-blog.html">&lt;p&gt;here is my first blog, I am plan to use it to record my life and thoughts.&lt;/p&gt;</content><author><name></name></author><summary type="html">here is my first blog, I am plan to use it to record my life and thoughts.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Phonon scattering at interfaces</summary></entry></feed>
