@@ -144,13 +144,16 @@
       <li>For a given model complexity, the over-fitting problem become less severe as the the size of the data set increase.</li>
       <li><em>the number of parameters is not necessarity the most appropriate measure of model complexity.</em></li>
       <li>The over-fitting problem can be understood as a general property of maximum likelihood.</li>
-      <li>The over-fitting problem can be avoided by adopting a Bayesian approach.
-        <ul>
-          <li>in a Bayesian model, the <em>effective</em> number of parameters adapts automatically to the size of the data set.</li>
-        </ul>
-      </li>
+      <li>The over-fitting problem can be avoided by adopting a Bayesian approach.</li>
+      <li>in a Bayesian model, the <em>effective</em> number of parameters adapts automatically to the size of the data set.</li>
     </ul>
   </li>
+  <li>One technique that is often used to control the over-fitting problem:
+    <ul>
+      <li>adding a penalty term to the error function in order to discourage the coefficients from reaching large values.</li>
+    </ul>
+  </li>
+  <li>Take home message: if we are trying to solve a practical applications using the approach of minimizing an error function, we would have to find a way to determine a suitable value for the model complexity.</li>
 </ul>
 
 <hr />

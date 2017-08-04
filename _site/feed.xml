@@ -1,5 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-07-23T19:51:02-04:00</updated><id>http://localhost:4000/</id><title type="html">Researh &amp;amp; Life</title><subtitle>my personal website.
-</subtitle><entry><title type="html">Mechine learning: 01</title><link href="http://localhost:4000/research/2017/07/22/mechine-learning-01.html" rel="alternate" type="text/html" title="Mechine learning: 01" /><published>2017-07-22T00:00:00-04:00</published><updated>2017-07-22T00:00:00-04:00</updated><id>http://localhost:4000/research/2017/07/22/mechine-learning-01</id><content type="html" xml:base="http://localhost:4000/research/2017/07/22/mechine-learning-01.html">&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-08-04T13:28:47-04:00</updated><id>http://localhost:4000/</id><title type="html">Researh &amp;amp; Life</title><subtitle>my personal website.
+</subtitle><entry><title type="html">switch off the intramolecular nonbonded interaction</title><link href="http://localhost:4000/research/2017/08/04/switchoff_intramolecular_LJ.html" rel="alternate" type="text/html" title="switch off the intramolecular nonbonded interaction" /><published>2017-08-04T00:00:00-04:00</published><updated>2017-08-04T00:00:00-04:00</updated><id>http://localhost:4000/research/2017/08/04/switchoff_intramolecular_LJ</id><content type="html" xml:base="http://localhost:4000/research/2017/08/04/switchoff_intramolecular_LJ.html">&lt;p&gt;When I running some simulations on ionic liqudis, I realize that may need to turn off the intramolecular nonbonding interactions.
+Here are some commands in LAMMPS that can do the jobs:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;night_modify exclude molecule/intra all&lt;/li&gt;
+  &lt;li&gt;special_bonds lj/coul 0 0 0&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">When I running some simulations on ionic liqudis, I realize that may need to turn off the intramolecular nonbonding interactions. Here are some commands in LAMMPS that can do the jobs: night_modify exclude molecule/intra all special_bonds lj/coul 0 0 0</summary></entry><entry><title type="html">tutorial on IEEE nano 2017 conference</title><link href="http://localhost:4000/research/2017/07/26/ieee-nano-tutorial.html" rel="alternate" type="text/html" title="tutorial on IEEE nano 2017 conference" /><published>2017-07-26T00:00:00-04:00</published><updated>2017-07-26T00:00:00-04:00</updated><id>http://localhost:4000/research/2017/07/26/ieee-nano-tutorial</id><content type="html" xml:base="http://localhost:4000/research/2017/07/26/ieee-nano-tutorial.html">&lt;p&gt;The IEEE nano conference is held at pittsburgh, so we attend the one day tutorial on nanoscale heat transfer.&lt;/p&gt;</content><author><name></name></author><summary type="html">The IEEE nano conference is held at pittsburgh, so we attend the one day tutorial on nanoscale heat transfer.</summary></entry><entry><title type="html">Second thought on the Green-Kubo fomular</title><link href="http://localhost:4000/research/2017/07/24/second-thought-Green-Kubo.html" rel="alternate" type="text/html" title="Second thought on the Green-Kubo fomular" /><published>2017-07-24T00:00:00-04:00</published><updated>2017-07-24T00:00:00-04:00</updated><id>http://localhost:4000/research/2017/07/24/second-thought-Green-Kubo</id><content type="html" xml:base="http://localhost:4000/research/2017/07/24/second-thought-Green-Kubo.html">&lt;ul&gt;
+  &lt;li&gt;The key thing is the microscopic expreesion for the heat flux
+    &lt;ul&gt;
+      &lt;li&gt;point masses system via pairwise-additive forces, &lt;a href=&quot;http://aip.scitation.org/doi/pdf/11.1063/1.1747782&quot;&gt;Irving and Kirkwood&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The heat curret is defined as the time derivative of the sum of the moments of the site energies.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">The key thing is the microscopic expreesion for the heat flux point masses system via pairwise-additive forces, Irving and Kirkwood The heat curret is defined as the time derivative of the sum of the moments of the site energies.</summary></entry><entry><title type="html">Mechine learning: 01</title><link href="http://localhost:4000/research/2017/07/22/mechine-learning-01.html" rel="alternate" type="text/html" title="Mechine learning: 01" /><published>2017-07-22T00:00:00-04:00</published><updated>2017-07-22T00:00:00-04:00</updated><id>http://localhost:4000/research/2017/07/22/mechine-learning-01</id><content type="html" xml:base="http://localhost:4000/research/2017/07/22/mechine-learning-01.html">&lt;ul&gt;
   &lt;li&gt;The problem of searching for patterns in data is fundamental one and has a long and successful history.&lt;/li&gt;
   &lt;li&gt;The field of &lt;strong&gt;pattern recognition&lt;/strong&gt; is concerned with the automatic discovery of &lt;em&gt;regularities in data&lt;/em&gt; through the use of &lt;strong&gt;computer algorithms&lt;/strong&gt; and with the use of these regularities to take action such as classifying the data into different categories.&lt;/li&gt;
   &lt;li&gt;In mechine learning, a training set is used to tune the parameters of an adaptive model.&lt;/li&gt;
@@ -63,13 +75,16 @@
       &lt;li&gt;For a given model complexity, the over-fitting problem become less severe as the the size of the data set increase.&lt;/li&gt;
       &lt;li&gt;&lt;em&gt;the number of parameters is not necessarity the most appropriate measure of model complexity.&lt;/em&gt;&lt;/li&gt;
       &lt;li&gt;The over-fitting problem can be understood as a general property of maximum likelihood.&lt;/li&gt;
-      &lt;li&gt;The over-fitting problem can be avoided by adopting a Bayesian approach.
-        &lt;ul&gt;
-          &lt;li&gt;in a Bayesian model, the &lt;em&gt;effective&lt;/em&gt; number of parameters adapts automatically to the size of the data set.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
+      &lt;li&gt;The over-fitting problem can be avoided by adopting a Bayesian approach.&lt;/li&gt;
+      &lt;li&gt;in a Bayesian model, the &lt;em&gt;effective&lt;/em&gt; number of parameters adapts automatically to the size of the data set.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;One technique that is often used to control the over-fitting problem:
+    &lt;ul&gt;
+      &lt;li&gt;adding a penalty term to the error function in order to discourage the coefficients from reaching large values.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Take home message: if we are trying to solve a practical applications using the approach of minimizing an error function, we would have to find a way to determine a suitable value for the model complexity.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
