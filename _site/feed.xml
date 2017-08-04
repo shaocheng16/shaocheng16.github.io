@@ -1,5 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-07-21T17:28:45-04:00</updated><id>http://localhost:4000/</id><title type="html">Researh &amp;amp; Life</title><subtitle>my personal website.
-</subtitle><entry><title type="html">Ionic liquids: some links and resources</title><link href="http://localhost:4000/blog/2017/07/21/some-resource-for-ionic-liquid.html" rel="alternate" type="text/html" title="Ionic liquids: some links and resources" /><published>2017-07-21T00:00:00-04:00</published><updated>2017-07-21T00:00:00-04:00</updated><id>http://localhost:4000/blog/2017/07/21/some-resource-for-ionic-liquid</id><content type="html" xml:base="http://localhost:4000/blog/2017/07/21/some-resource-for-ionic-liquid.html">&lt;h2 id=&quot;structure&quot;&gt;Structure&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-07-23T19:51:02-04:00</updated><id>http://localhost:4000/</id><title type="html">Researh &amp;amp; Life</title><subtitle>my personal website.
+</subtitle><entry><title type="html">Mechine learning: 01</title><link href="http://localhost:4000/research/2017/07/22/mechine-learning-01.html" rel="alternate" type="text/html" title="Mechine learning: 01" /><published>2017-07-22T00:00:00-04:00</published><updated>2017-07-22T00:00:00-04:00</updated><id>http://localhost:4000/research/2017/07/22/mechine-learning-01</id><content type="html" xml:base="http://localhost:4000/research/2017/07/22/mechine-learning-01.html">&lt;ul&gt;
+  &lt;li&gt;The problem of searching for patterns in data is fundamental one and has a long and successful history.&lt;/li&gt;
+  &lt;li&gt;The field of &lt;strong&gt;pattern recognition&lt;/strong&gt; is concerned with the automatic discovery of &lt;em&gt;regularities in data&lt;/em&gt; through the use of &lt;strong&gt;computer algorithms&lt;/strong&gt; and with the use of these regularities to take action such as classifying the data into different categories.&lt;/li&gt;
+  &lt;li&gt;In mechine learning, a training set is used to tune the parameters of an adaptive model.&lt;/li&gt;
+  &lt;li&gt;In most applications, the original training sets are preprocessed to transform them into some new space of variables where, it is hoped, the pattern recognition problem will be easier to solve
+    &lt;ul&gt;
+      &lt;li&gt;this pre-processing stage is sometimes also called feature extraction.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;types-of-mechine-learning&quot;&gt;Types of mechine learning:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;supervised learning
+    &lt;ul&gt;
+      &lt;li&gt;classification problem&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;unsupervised learning
+    &lt;ul&gt;
+      &lt;li&gt;to discover groups of similar examples within the data (clustering)&lt;/li&gt;
+      &lt;li&gt;determine the distribution of data within the input space (density estimation)&lt;/li&gt;
+      &lt;li&gt;project the data from high-dimensional space down to low dimensions for the purpose of &lt;em&gt;visualization&lt;/em&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;reinforcement learning
+    &lt;ul&gt;
+      &lt;li&gt;to find suitable actions to take in a given situation in order to maximize a reward.&lt;/li&gt;
+      &lt;li&gt;the learning algorithm is not given examples of optimal outputs, in contrast to supervised learning, but must instead discover them by a process of trial and error.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;example-polynomial-curve-fitting&quot;&gt;Example: polynomial Curve Fitting&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Data generated for this example:
+    &lt;ul&gt;
+      &lt;li&gt;sin(2\pi x) with random noise&lt;/li&gt;
+      &lt;li&gt;the data sets process an underlying regularity, which we wish to learn, but that individual observations are corrupted by random noise.&lt;/li&gt;
+      &lt;li&gt;the noise might arise from intrinsically stochastic processes such as radioactive decay but more typically is due to there being sources of variability that are themselves unobserved.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Training set:
+    &lt;ul&gt;
+      &lt;li&gt;N observations of x: X=(x1, x2, … xN)^T&lt;/li&gt;
+      &lt;li&gt;the corresponding observations: T= (t1, t2, …, tN)^T&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The goal is to exploit this training set in order to make prediction of the value t^ of the target variable for some new value x^ of the input variable.&lt;/li&gt;
+  &lt;li&gt;The values of the coefficients will be determined by fitting the polynomial to the training data.
+    &lt;ul&gt;
+      &lt;li&gt;This can be done by minimizing an error function that measures the misfit between the function y(x,W), for any given value w, and the training set data points.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The remain problem is the choosing the order M of the polynomial, and this will turn out to be an example of an important concept called model comparison or modelselection.
+    &lt;ul&gt;
+      &lt;li&gt;More flexible polynomials with larger values of M are becoming &lt;strong&gt;increasingly tuned to the random noise on the target values&lt;/strong&gt;.&lt;/li&gt;
+      &lt;li&gt;For a given model complexity, the over-fitting problem become less severe as the the size of the data set increase.&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;the number of parameters is not necessarity the most appropriate measure of model complexity.&lt;/em&gt;&lt;/li&gt;
+      &lt;li&gt;The over-fitting problem can be understood as a general property of maximum likelihood.&lt;/li&gt;
+      &lt;li&gt;The over-fitting problem can be avoided by adopting a Bayesian approach.
+        &lt;ul&gt;
+          &lt;li&gt;in a Bayesian model, the &lt;em&gt;effective&lt;/em&gt; number of parameters adapts automatically to the size of the data set.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;probability-theory&quot;&gt;Probability theory&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;A key concept in pattern recognition is that of uncertainty:
+    &lt;ul&gt;
+      &lt;li&gt;noise on measurement&lt;/li&gt;
+      &lt;li&gt;finite size of data sets&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Probability theory provides a consistent framework for the quantificaion and manipulation of uncertainty and forms one of the central fundations for pattern recognition.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;It allows us to make optimal predictions given all the information available to us, even though that information may be incomplete or ambiguous.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;bayesian-probabilities&quot;&gt;Bayesian probabilities&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Classsical or frequentist interpretation of probability is based on the frequencies of random, repeatable events.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Bayesian view&lt;/strong&gt;: probabilities provide a quantification of uncertainty.&lt;/li&gt;
+  &lt;li&gt;Bayes’ theorem was used to convert a prior probability into a posterior probability by incorporating the evidence provided by the observed data.&lt;/li&gt;
+  &lt;li&gt;The Bayesian framework has its origins in the 18th century, however, the practical application of Bayesian methods was for a long time severely limited by the difficulties in carrying through the full Bayesian procedure, particularly the need to marginalized over the whole of parameter space.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">The problem of searching for patterns in data is fundamental one and has a long and successful history. The field of pattern recognition is concerned with the automatic discovery of regularities in data through the use of computer algorithms and with the use of these regularities to take action such as classifying the data into different categories. In mechine learning, a training set is used to tune the parameters of an adaptive model. In most applications, the original training sets are preprocessed to transform them into some new space of variables where, it is hoped, the pattern recognition problem will be easier to solve this pre-processing stage is sometimes also called feature extraction.</summary></entry><entry><title type="html">Ionic liquids: some links and resources</title><link href="http://localhost:4000/blog/2017/07/21/some-resource-for-ionic-liquid.html" rel="alternate" type="text/html" title="Ionic liquids: some links and resources" /><published>2017-07-21T00:00:00-04:00</published><updated>2017-07-21T00:00:00-04:00</updated><id>http://localhost:4000/blog/2017/07/21/some-resource-for-ionic-liquid</id><content type="html" xml:base="http://localhost:4000/blog/2017/07/21/some-resource-for-ionic-liquid.html">&lt;h2 id=&quot;structure&quot;&gt;Structure&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Prepare the .xyz file
     &lt;ul&gt;
@@ -27,7 +123,7 @@
       &lt;li&gt;&lt;a href=&quot;http://aip.scitation.org/doi/full/10.1063/1.2772268&quot;&gt;Bhargave&lt;/a&gt;, 2007, Refined potential model for atomistic simulations of ionic liquid [Bmim][PF6]&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Structure Prepare the .xyz file structures for some common room temperature ionic liquid packmol to packing the molecules into a optimized configuration Generate the topology file by Topo Tool plugin in VMD One tutorial</summary></entry><entry><title type="html">Scientific Writing</title><link href="http://localhost:4000/research/2017/07/21/links-for-writing.html" rel="alternate" type="text/html" title="Scientific Writing" /><published>2017-07-21T00:00:00-04:00</published><updated>2017-07-21T00:00:00-04:00</updated><id>http://localhost:4000/research/2017/07/21/links-for-writing</id><content type="html" xml:base="http://localhost:4000/research/2017/07/21/links-for-writing.html">&lt;ul&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Structure Prepare the .xyz file structures for some common room temperature ionic liquid packmol to packing the molecules into a optimized configuration Generate the topology file by Topo Tool plugin in VMD One tutorial</summary></entry><entry><title type="html">phonon surface scattering</title><link href="http://localhost:4000/research/2017/07/21/phonon-surface-scattering.html" rel="alternate" type="text/html" title="phonon surface scattering" /><published>2017-07-21T00:00:00-04:00</published><updated>2017-07-21T00:00:00-04:00</updated><id>http://localhost:4000/research/2017/07/21/phonon-surface-scattering</id><content type="html" xml:base="http://localhost:4000/research/2017/07/21/phonon-surface-scattering.html">&lt;h2 id=&quot;history&quot;&gt;history&lt;/h2&gt;</content><author><name></name></author><summary type="html">history</summary></entry><entry><title type="html">Scientific Writing</title><link href="http://localhost:4000/research/2017/07/21/links-for-writing.html" rel="alternate" type="text/html" title="Scientific Writing" /><published>2017-07-21T00:00:00-04:00</published><updated>2017-07-21T00:00:00-04:00</updated><id>http://localhost:4000/research/2017/07/21/links-for-writing</id><content type="html" xml:base="http://localhost:4000/research/2017/07/21/links-for-writing.html">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=g3dkRsTqdDA&quot;&gt;How to Write a Great Research Paper (youtube)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=DeVjXINr5Wk&quot;&gt;How to Publish a Lot and Still Have a Life (youtube)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://abacus.bates.edu/~ganderso/biology/resources/writing/HTWtoc.html&quot;&gt;Writing tutorial from Botes College&lt;/a&gt;&lt;/li&gt;
