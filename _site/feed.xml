@@ -1,5 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-08-04T13:28:47-04:00</updated><id>http://localhost:4000/</id><title type="html">Researh &amp;amp; Life</title><subtitle>my personal website.
-</subtitle><entry><title type="html">switch off the intramolecular nonbonded interaction</title><link href="http://localhost:4000/research/2017/08/04/switchoff_intramolecular_LJ.html" rel="alternate" type="text/html" title="switch off the intramolecular nonbonded interaction" /><published>2017-08-04T00:00:00-04:00</published><updated>2017-08-04T00:00:00-04:00</updated><id>http://localhost:4000/research/2017/08/04/switchoff_intramolecular_LJ</id><content type="html" xml:base="http://localhost:4000/research/2017/08/04/switchoff_intramolecular_LJ.html">&lt;p&gt;When I running some simulations on ionic liqudis, I realize that may need to turn off the intramolecular nonbonding interactions.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-14T12:59:58-04:00</updated><id>http://localhost:4000/</id><title type="html">Researh &amp;amp; Life</title><subtitle>my personal website.
+</subtitle><entry><title type="html">modal analysis on interface thermal conductance</title><link href="http://localhost:4000/research/2017/09/14/interface-conductance_moda_analysis.html" rel="alternate" type="text/html" title="modal analysis on interface thermal conductance" /><published>2017-09-14T12:56:16-04:00</published><updated>2017-09-14T12:56:16-04:00</updated><id>http://localhost:4000/research/2017/09/14/interface-conductance_moda_analysis</id><content type="html" xml:base="http://localhost:4000/research/2017/09/14/interface-conductance_moda_analysis.html">&lt;h1 id=&quot;my-next-research-topic-will-be-ionic-liquids&quot;&gt;my next research topic will be ionic liquids&lt;/h1&gt;
+&lt;p&gt;This first one is: 
+A formalism for calculating the modal contributions to thermal interface conductance
+http://iopscience.iop.org/article/10.1088/1367-2630/17/10/103002/meta
+which gives the complete formulas and its derivative on the modal contributions to thermal interface conductance.&lt;/p&gt;
+
+&lt;p&gt;The second one is:
+Phonon transport at interfaces: Determining the correct modes of vibration
+http://aip.scitation.org/doi/pdf/10.1063/1.4939207
+in which they talked about how to classified the vibration modes into different categories and how does these modes look like( Fig. 5).&lt;/p&gt;
+
+&lt;p&gt;And since then they have applied this methods to many different interfaces, such as the interface between crystalline Si/Ge and InGaAs/InP, as well as the interfaces between different phases of materials. 
+Phonon Transport at Crystalline Si/Ge Interfaces: The Role of Interfacial Modes of Vibration
+https://www.nature.com/articles/srep23139.pdf
+Interface conductance modal analysis of lattice matched InGaAs/InP
+http://aip.scitation.org/doi/pdf/10.1063/1.4948520
+Phonon transport at interfaces between different phases of silicon and germanium 
+http://aip.scitation.org/doi/10.1063/1.4973573&lt;/p&gt;
+
+&lt;p&gt;These paper may be helpful for you to obtain a better understanding on the concepts of phonon, vibration mode and thermal transport in materials and at interfaces.&lt;/p&gt;</content><author><name></name></author><summary type="html">my next research topic will be ionic liquids This first one is: A formalism for calculating the modal contributions to thermal interface conductance http://iopscience.iop.org/article/10.1088/1367-2630/17/10/103002/meta which gives the complete formulas and its derivative on the modal contributions to thermal interface conductance.</summary></entry><entry><title type="html">Compute the heat flux in LAMMPS</title><link href="http://localhost:4000/research/2017/08/25/compute_flux_lammps.html" rel="alternate" type="text/html" title="Compute the heat flux in LAMMPS" /><published>2017-08-25T00:00:00-04:00</published><updated>2017-08-25T00:00:00-04:00</updated><id>http://localhost:4000/research/2017/08/25/compute_flux_lammps</id><content type="html" xml:base="http://localhost:4000/research/2017/08/25/compute_flux_lammps.html">&lt;h1 id=&quot;compute-heat-flux-in-lammps&quot;&gt;compute heat flux in lammps&lt;/h1&gt;</content><author><name></name></author><summary type="html">compute heat flux in lammps</summary></entry><entry><title type="html">The man who trusted atoms</title><link href="http://localhost:4000/research/2017/08/05/Ludwig_Boltzmann.html" rel="alternate" type="text/html" title="The man who trusted atoms" /><published>2017-08-05T00:00:00-04:00</published><updated>2017-08-05T00:00:00-04:00</updated><id>http://localhost:4000/research/2017/08/05/Ludwig_Boltzmann</id><content type="html" xml:base="http://localhost:4000/research/2017/08/05/Ludwig_Boltzmann.html">&lt;ul&gt;
+  &lt;li&gt;Quantum particle do not have uniquely specific locations or velocities, and collectionos of them must, strictly speaking, be treated as a holistic (“entangled”) whole, rather than as a collection of individuals each of which has a state on its own. (foreword)&lt;/li&gt;
+  &lt;li&gt;The distinction between a continuous field and a collection of individual particles is by no means as clear as it was in the classical picture.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;</content><author><name></name></author><summary type="html">Quantum particle do not have uniquely specific locations or velocities, and collectionos of them must, strictly speaking, be treated as a holistic (“entangled”) whole, rather than as a collection of individuals each of which has a state on its own. (foreword) The distinction between a continuous field and a collection of individual particles is by no means as clear as it was in the classical picture.</summary></entry><entry><title type="html">switch off the intramolecular nonbonded interaction</title><link href="http://localhost:4000/research/2017/08/04/switchoff_intramolecular_LJ.html" rel="alternate" type="text/html" title="switch off the intramolecular nonbonded interaction" /><published>2017-08-04T00:00:00-04:00</published><updated>2017-08-04T00:00:00-04:00</updated><id>http://localhost:4000/research/2017/08/04/switchoff_intramolecular_LJ</id><content type="html" xml:base="http://localhost:4000/research/2017/08/04/switchoff_intramolecular_LJ.html">&lt;p&gt;When I running some simulations on ionic liqudis, I realize that may need to turn off the intramolecular nonbonding interactions.
 Here are some commands in LAMMPS that can do the jobs:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;night_modify exclude molecule/intra all&lt;/li&gt;
@@ -143,87 +167,4 @@ Here are some commands in LAMMPS that can do the jobs:&lt;/p&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=DeVjXINr5Wk&quot;&gt;How to Publish a Lot and Still Have a Life (youtube)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://abacus.bates.edu/~ganderso/biology/resources/writing/HTWtoc.html&quot;&gt;Writing tutorial from Botes College&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://cgi.duke.edu/web/sciwriting/index.php&quot;&gt;Scientific Writing from Duke University&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">How to Write a Great Research Paper (youtube) How to Publish a Lot and Still Have a Life (youtube) Writing tutorial from Botes College Scientific Writing from Duke University</summary></entry><entry><title type="html">Ionic Liquids</title><link href="http://localhost:4000/research/2017/07/20/ionic-liquid.html" rel="alternate" type="text/html" title="Ionic Liquids" /><published>2017-07-20T10:54:32-04:00</published><updated>2017-07-20T10:54:32-04:00</updated><id>http://localhost:4000/research/2017/07/20/ionic-liquid</id><content type="html" xml:base="http://localhost:4000/research/2017/07/20/ionic-liquid.html">&lt;h3 id=&quot;what-is-ionic-liquids&quot;&gt;what is ionic liquids?&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;In contrast to high temperature melts that are commomly referred as molten salts, ionic liquids are, as their name implies, salts that are liquid at low temperature - many at room temperature or below - and that in a molten form are composed wholly of ions. &lt;a href=&quot;http://lem.ch.unito.it/didattica/infochimica/Liquidi%20Ionici/Definition.html&quot;&gt;ref&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;properties-and-applications-of-ionic-liquids&quot;&gt;Properties and applications of ionic liquids&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;properties: &lt;a href=&quot;http://pubs.acs.org/doi/pdf/10.1021/sc300163n&quot;&gt;Ref&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;nonvolatile&lt;/li&gt;
-      &lt;li&gt;null flammability&lt;/li&gt;
-      &lt;li&gt;low melting point&lt;/li&gt;
-      &lt;li&gt;high ionic conductivity&lt;/li&gt;
-      &lt;li&gt;thermal and eletrochemical stability&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;applications:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;http://lem.ch.unito.it/didattica/infochimica/Liquidi%20Ionici/ApplicationsMap.html#M&quot;&gt;Overview&lt;/a&gt;
-  &lt;img src=&quot;/assets/IL_application.png&quot; alt=&quot;example&quot; title=&quot;applications of ionic liquids&quot; /&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.nature.com/nmat/journal/v8/n8/pdf/nmat2448.pdf&quot;&gt;Lithium batteries&lt;/a&gt;
-  &lt;img src=&quot;/assets/lithium_batteries_ionic-liquid.png&quot; alt=&quot;example&quot; /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;exsiting-problems&quot;&gt;Exsiting problems?&lt;/h3&gt;
-
-&lt;h3 id=&quot;recent-researches-on-ionic-liqiods&quot;&gt;Recent researches on ionic liqiods&lt;/h3&gt;</content><author><name></name></author><summary type="html">what is ionic liquids? In contrast to high temperature melts that are commomly referred as molten salts, ionic liquids are, as their name implies, salts that are liquid at low temperature - many at room temperature or below - and that in a molten form are composed wholly of ions. ref</summary></entry><entry><title type="html">phonon focusing</title><link href="http://localhost:4000/research/2017/06/30/phonon-focusing.html" rel="alternate" type="text/html" title="phonon focusing" /><published>2017-06-30T10:54:32-04:00</published><updated>2017-06-30T10:54:32-04:00</updated><id>http://localhost:4000/research/2017/06/30/phonon-focusing</id><content type="html" xml:base="http://localhost:4000/research/2017/06/30/phonon-focusing.html">&lt;h1 id=&quot;phonon-scattering-at-interfaces&quot;&gt;Phonon scattering at interfaces&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The heat-pulse technique was first demonstrated for solids by von
-Gutfeld and Nethercot in 1964.&lt;/li&gt;
-  &lt;li&gt;In 1969, Taylor, Maris, and Elbaum noted that for all crystals a
-large difference in the &lt;em&gt;intensities of the longitudinal and
-transverse pulses&lt;/em&gt; depended on the propagation directions. This
-effect was called &lt;em&gt;phonon focusing&lt;/em&gt;.&lt;/li&gt;
-  &lt;li&gt;Phonon focusing occurs because elastic waves in anisotropic media
-have a group velocity that in general is not parallel to the
-wavevector.
-    &lt;ul&gt;
-      &lt;li&gt;the direction of energy propagation is not normal to the
-wavefronts. In particular, waves with quite different k direction
-can have nearly the save Vg. So that the energy flux associated
-with those waves bunches along certain crystalline direction.&lt;/li&gt;
-      &lt;li&gt;As a consequence of the noncollinear k and Vg, an isotropic
-distribution of wavevectors emanating from a point source of heat
-can produce a highly anisotropic distribution of energy flux.&lt;/li&gt;
-      &lt;li&gt;Hensel and Dynes found an extreme anisotropy in the nonequilibrium
-phonon flux emanating from a point source. (measured by a narrow
-bolometer)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;the-kapitza-problem&quot;&gt;The kapitza problem&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Kapitza’s experiments in 1941, sharp temperature gradient at the
-interface of a heated solid immersed in liquid He.&lt;/li&gt;
-  &lt;li&gt;Khalatnakov later realized that this thermal boundary resistance
-could be explained from a simple acoustic mismatch theory.
-    &lt;ul&gt;
-      &lt;li&gt;aoustic impedances Z= rhonu (rho is the density, nu is the speed
-of sound)&lt;/li&gt;
-      &lt;li&gt;however, based on the acoustic impedance, he predict that the
-average transmission coefficient between solid and liquid should
-be approximately 1%, whereas the measured thermal boundary
-resistances corresponded to a transmission coefficient of
-approximately 50%.&lt;/li&gt;
-      &lt;li&gt;[Wyatt and Page] employed ballistic heat pulses to continuous scan
-the incident angle of phonons at solid/liquid-He interface.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;[Wyatt and Page] https://daringfireball.net/projects/markdown/&lt;/p&gt;
-
-&lt;h2 id=&quot;solidsolid-interfaces&quot;&gt;solid/solid interfaces&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;total internal reflection at sepcially prepared solid/solid
-interfaces has been observed.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Phonon scattering at interfaces</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">How to Write a Great Research Paper (youtube) How to Publish a Lot and Still Have a Life (youtube) Writing tutorial from Botes College Scientific Writing from Duke University</summary></entry></feed>
