@@ -8,9 +8,10 @@ categories: research
 # Some review article on this topic
 - [Nanoscale heat transfer – from computation to experiment, 2013](http://pubs.rsc.org/en/content/articlehtml/2013/cp/c2cp43771f)
 - [Advances in Studying Phonon MFP Dependent Contributions to Thermal Conductivity, 2015](http://www.tandfonline.com/doi/abs/10.1080/15567265.2015.1045640)
+- [Advances in the measurement and computation of thermal phonon transport properties,2015](http://iopscience.iop.org/article/10.1088/0953-8984/27/5/053202/meta)
 - [Phonon thermal conduction in novel 2D materials, 2017](http://iopscience.iop.org/article/10.1088/0953-8984/28/48/483001/pdf)
 - [Phononic thermal properties of two-dimensional materials, 2017](https://arxiv.org/abs/1705.06156)
-
+- [Raman-based technique for measuring thermal conductivity of graphene and related materials](http://onlinelibrary.wiley.com/doi/10.1002/jrs.5230/full)
 # Experimental techniques
 - Confocal micro-Raman method
     + single-layer and few-layer graphene
