@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_new
 title:  "Some old references on single crystal C60"
 date: Mon 25 Sep 2017 03:03:52 PM EDT
 categories: research

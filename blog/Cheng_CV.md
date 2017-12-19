@@ -12,7 +12,7 @@ title: "Curriculum Vitae"
 
 **Huazhong University of Science and Technology**
 - B.S., Control Science and Engineering,
-- Thesis: Theoretical Investigation of Heat Transfer across Interfaces
+- 'Thesis': Theoretical Investigation of Heat Transfer across Interfaces
 
 ---
 # **Research Interest**

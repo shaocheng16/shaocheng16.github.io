@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_default
 title:  "Ionic liquids: some links and resources"
 data: Fri 21 Jul 2017 12:34:05 PM EDT
 categories: blog
