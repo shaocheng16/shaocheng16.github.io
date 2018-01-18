@@ -2,7 +2,7 @@
 layout: post
 title:  "phonon focusing"
 date:   2017-06-30 10:54:32 -0400
-categories: research
+categories: blog
 ---
 
 
