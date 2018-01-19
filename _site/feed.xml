@@ -8,6 +8,56 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>photos dog</title>
+				<description>&lt;p&gt;&lt;img src=&quot;/images/westCoast_trip.png&quot; alt=&quot;图片&quot; /&gt;&lt;/p&gt;
+</description>
+				<pubDate>Thu, 18 Jan 2018 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/2018/01/18/west-coast-trip.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2018/01/18/west-coast-trip.html</guid>
+			</item>
+		
+			<item>
+				<title>Calculating the 2nd force constant from LAMMPS</title>
+				<description>&lt;h2 id=&quot;2nd-force-constant-from-lammps&quot;&gt;2nd Force Constant From Lammps&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In one of my  project, I need to calculate the force constant between differnet paires of atoms, and there is how I do it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;methods&quot;&gt;Methods&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The main reference is the paper from Esfarjani in 2008 [&lt;a href=&quot;http://link.aps.org/doi/10.1103/PhysRevB.77.144112&quot;&gt;PRB, &lt;strong&gt;77&lt;/strong&gt;, 144112 (2018)&lt;/a&gt;]&lt;/li&gt;
+  &lt;li&gt;Basically, if we only consider the 2nd terms, the force on atom $i$ is the summation of the force between different atoms pairs:
+&lt;script type=&quot;math/tex&quot;&gt;F_i = - \sum_{j} \Phi_{ij} u_j&lt;/script&gt;
+we can then moving one atom at each time, and the from the force of other atoms, we can calculate the force constant $\Phi_{ij}$&lt;/li&gt;
+  &lt;li&gt;In detials, I build a equilibrium lattice  in LAMMPS first, then I moved the atoms in center cell at one direction at each time, and dumped out the force on each atoms. The LAMMPS scirpts read as below:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;group cAtom id 249
+displace_atoms cAtom move 0.0 0.001 0.0 units box
+dump 1 all custom 1 force_12.txt id fx fy fz
+dump_modify 1 sort id format  &quot;%d %10.15g %10.15g %10.15g&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Then I used a python script to extrac the force constant between atom pairs.&lt;/li&gt;
+  &lt;li&gt;Make sure the 2nd force constants are correct, I check:
+    &lt;ol&gt;
+      &lt;li&gt;the symmetry of of force constant tensor&lt;/li&gt;
+      &lt;li&gt;the acoustic summation rule:&lt;/li&gt;
+      &lt;li&gt;the dispersion from this force constant&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+				<pubDate>Thu, 18 Jan 2018 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/blog/2018/01/18/2nd-force-constant-lammps.html</link>
+				<guid isPermaLink="true">http://localhost:4000/blog/2018/01/18/2nd-force-constant-lammps.html</guid>
+			</item>
+		
+			<item>
 				<title>photo people</title>
 				<description>&lt;p&gt;&lt;img src=&quot;/images/test.jpg&quot; alt=&quot;图片&quot; /&gt;&lt;/p&gt;
 
@@ -254,49 +304,6 @@ H_1      	&amp; \tau_1^{+} 	&amp; 0  \\
 				<pubDate>Fri, 15 Sep 2017 23:18:13 +0800</pubDate>
 				<link>http://localhost:4000/research/2017/09/15/integration-algorithm-MD.html</link>
 				<guid isPermaLink="true">http://localhost:4000/research/2017/09/15/integration-algorithm-MD.html</guid>
-			</item>
-		
-			<item>
-				<title>modal analysis on interface thermal conductance</title>
-				<description>&lt;h1 id=&quot;recently-read-some-papers-on-thermal-interface-conductance-and-found-they-are-interesting&quot;&gt;recently read some papers on thermal interface conductance and found they are interesting&lt;/h1&gt;
-&lt;p&gt;This first one is:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://iopscience.iop.org/article/10.1088/1367-2630/17/10/103002/meta&quot;&gt;A formalism for calculating the modal contributions to thermal interface conductance&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;which gives the complete formulas and its derivative on the modal contributions to thermal interface conductance.&lt;/p&gt;
-
-&lt;p&gt;The second one is:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://aip.scitation.org/doi/pdf/10.1063/1.4939207&quot;&gt;Phonon transport at interfaces: Determining the correct modes of vibration&lt;/a&gt;
-in which they talked about how to classified the vibration modes into different categories and how does these modes look like( Fig. 5).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And since then they have applied this methods to many different interfaces, such as the interface between crystalline Si/Ge and InGaAs/InP, as well as the interfaces between different phases of materials.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nature.com/articles/srep23139.pdf&quot;&gt;Phonon Transport at Crystalline Si/Ge Interfaces: The Role of Interfacial Modes of Vibration&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://aip.scitation.org/doi/pdf/10.1063/1.4948520&quot;&gt;Interface conductance modal analysis of lattice matched InGaAs/InP&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://aip.scitation.org/doi/10.1063/1.4973573&quot;&gt;Phonon transport at interfaces between different phases of silicon and germanium&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;These paper may be helpful for you to obtain a better understanding on the concepts of phonon, vibration mode and thermal transport in materials and at interfaces.&lt;/p&gt;
-
-</description>
-				<pubDate>Fri, 15 Sep 2017 00:56:16 +0800</pubDate>
-				<link>http://localhost:4000/research/2017/09/15/interface-conductance_moda_analysis.html</link>
-				<guid isPermaLink="true">http://localhost:4000/research/2017/09/15/interface-conductance_moda_analysis.html</guid>
-			</item>
-		
-			<item>
-				<title>Lammps modification</title>
-				<description>&lt;p&gt;This year I have done a project to investigate the thermal properties of an rigid body system. 
-In this project, we need to predict the thermal conductivity of this system through the Green-Kubo formula. 
-From the paper by &lt;a href=&quot;http://www.tandfonline.com/doi/pdf/10.1080/00268977600102551&quot;&gt;Evans at 1976&lt;/a&gt;, the exchange of heat flux due to the rotation of molecules need be to considered in the heat flux formula. However, we cannot access to the pairwise torque between molecules in LAMMPS right now. Therefore, I need to make some modification in Lammps to access the rotational degee-of-freedom information and get the correct heat flux information.&lt;/p&gt;
-
-</description>
-				<pubDate>Thu, 14 Sep 2017 00:00:00 +0800</pubDate>
-				<link>http://localhost:4000/research/2017/09/14/lammps-wqmodification.html</link>
-				<guid isPermaLink="true">http://localhost:4000/research/2017/09/14/lammps-wqmodification.html</guid>
 			</item>
 		
 	</channel>
