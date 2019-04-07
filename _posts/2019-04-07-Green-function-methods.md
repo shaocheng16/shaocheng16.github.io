@@ -14,6 +14,9 @@ data:
 
 ## Self-energy matrices
 
+## Green's function Matrices
+- The response of a dynamic matric system to an infinitesimal perturbation can be discribed by a Green's function.
+
 
 ### Phonon transmission function & thermal conductance
 
