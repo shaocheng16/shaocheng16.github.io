@@ -1,49 +1,26 @@
 ---
 layout: default
+title: Long Haul
 ---
-{% assign trans = site.data.values[site.lan] %}
-{% for post in paginator.posts %}
-    {% if post.tags[0] != 'photo' %}
-    <div class="well article">
-    
-        <span class="post-date">
-            <!--
-            {% assign d = post.date | date: "%d" | plus:'0' %}
-            {{ post.date | date: "%B" }}
-            {% case d %}
-            {% when 1 or 21 or 31 %}{{ d }}st,
-            {% when 2 or 22 %}{{ d }}nd,
-            {% when 3 or 23 %}{{ d }}rd,
-            {% else %}{{ d }}th,
-            {% endcase %}
-            {{ post.date | date: "%Y" }}
-            -->
-            {% assign date_format = site.date_format.title %}
-            {{ post.date | date: date_format }}
-        </span>
-        
-        <h2>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        </h2>
-        
-        <div class="post-description">
-            {{ post.description }}
-        </div>
-        
-    </div>
-    {% endif %}
-{% endfor %}
 
-<div class="pagination">
-  {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
-        <a class="btn btn-default" href="{{ site.baseurl}}/index.html" class="previous">Newer</a>
-      {% else %}
-        <a class="btn btn-default" href="{{ site.baseurl}}/page{{ paginator.previous_page }}" class="previous">Newer</a>
-      {% endif %}
-  {% endif %}
-  <span class="page_number ">{{ trans.page }}: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a class="btn btn-default" href="{{ site.baseurl}}/page{{ paginator.next_page }}" class="next">Older</a>
-  {% endif %}
+<div class="home" id="home">
+  <h1 class="pageTitle">Recent Posts</h1>
+  <ul class="posts noList">
+    {% for post in paginator.posts %}
+      <li>
+        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+        <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+        <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html }}{% endif %}</p>
+      </li>
+    {% endfor %}
+  </ul>
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous button__outline">Newer Posts</a> 
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next button__outline">Older Posts</a>
+    {% endif %}
+  </div>
 </div>

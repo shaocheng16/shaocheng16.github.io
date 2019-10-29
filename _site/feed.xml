@@ -1,24 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title></title>
-		<description>Cheng's Homepage
+  <channel>
+    <title>Cheng Shao</title>
+    <description>Long Form Jekyll theme built with SASS / COMPASS / SUSY</description>
+    <link>http://brianmaierjr.github.com/long-haul/</link>
+    <atom:link href="http://brianmaierjr.github.com/long-haul/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 29 Oct 2019 13:57:27 +0900</pubDate>
+    <lastBuildDate>Tue, 29 Oct 2019 13:57:27 +0900</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      
+      <item>
+        <title>python performance test</title>
+        <description>&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pydoc -w main # generating documents for python co&lt;/li&gt;
+  &lt;li&gt;using yapf to autoformat python code&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python -m cProfile -o profile -s cputime main.py
+snakeviz profile.log
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 </description>
-		<link>http://localhost:4000</link>
-		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-		
-			<item>
-				<title>photos dog</title>
-				<description>&lt;p&gt;&lt;img src=&quot;/images/westCoast_trip.png&quot; alt=&quot;图片&quot; /&gt;&lt;/p&gt;
+        
+          <description>&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 </description>
-				<pubDate>Thu, 18 Jan 2018 00:00:00 +0800</pubDate>
-				<link>http://localhost:4000/2018/01/18/west-coast-trip.html</link>
-				<guid isPermaLink="true">http://localhost:4000/2018/01/18/west-coast-trip.html</guid>
-			</item>
-		
-			<item>
-				<title>Calculating the 2nd force constant from LAMMPS</title>
-				<description>&lt;h2 id=&quot;2nd-force-constant-from-lammps&quot;&gt;2nd Force Constant From Lammps&lt;/h2&gt;
+        
+        <pubDate>Sun, 07 Apr 2019 00:00:00 +0900</pubDate>
+        <link>http://brianmaierjr.github.com/long-haul/blog/python-some-commands/</link>
+        <guid isPermaLink="true">http://brianmaierjr.github.com/long-haul/blog/python-some-commands/</guid>
+        
+        <category>technique</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Useful commmands in git</title>
+        <description>&lt;h2 id=&quot;using-git-for-version-control&quot;&gt;Using git for version control&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git init
+git status
+git add &amp;lt;filename&amp;gt; # to staging area
+git commit -m &quot;some message&quot;
+git diff &amp;lt;fimename&amp;gt;
+git tag &amp;lt;tag name&amp;gt;
+git reset --hard &amp;lt;id&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        
+          <description>&lt;h2 id=&quot;using-git-for-version-control&quot;&gt;Using git for version control&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 07 Apr 2019 00:00:00 +0900</pubDate>
+        <link>http://brianmaierjr.github.com/long-haul/blog/git-useful-command/</link>
+        <guid isPermaLink="true">http://brianmaierjr.github.com/long-haul/blog/git-useful-command/</guid>
+        
+        <category>technique</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Calculating Phonon transmission from Atomistic Green's function methods</title>
+        <description>&lt;h2 id=&quot;working-flow&quot;&gt;Working flow&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Harmonic matrices&lt;/strong&gt; for the system and its components are firstly generated, which established the harmonic relationship between any two atomic degree of freedom.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Green’s functions&lt;/strong&gt; of the system and its components are calculated from the harmonic matrices.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;frequency-depdendent phonon transmission&lt;/strong&gt; is then generated, and integration is performed over the full frequency spectrum to get the net heat flow rate.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;self-energy-matrices&quot;&gt;Self-energy matrices&lt;/h2&gt;
+
+&lt;h2 id=&quot;greens-function-matrices&quot;&gt;Green’s function Matrices&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;The response of a dynamic matric system to an infinitesimal perturbation can be discribed by a Green’s function.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;phonon-transmission-function--thermal-conductance&quot;&gt;Phonon transmission function &amp;amp; thermal conductance&lt;/h3&gt;
+
+</description>
+        
+          <description>&lt;h2 id=&quot;working-flow&quot;&gt;Working flow&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 07 Apr 2019 00:00:00 +0900</pubDate>
+        <link>http://brianmaierjr.github.com/long-haul/blog/Green-function-methods/</link>
+        <guid isPermaLink="true">http://brianmaierjr.github.com/long-haul/blog/Green-function-methods/</guid>
+        
+        <category>technique</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>photos dog</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/westCoast_trip.png&quot; alt=&quot;图片&quot; /&gt;&lt;/p&gt;
+</description>
+        
+          <description>&lt;p&gt;&lt;img src=&quot;/images/westCoast_trip.png&quot; alt=&quot;图片&quot; /&gt;&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 18 Jan 2018 00:00:00 +0900</pubDate>
+        <link>http://brianmaierjr.github.com/long-haul/blog/west-coast-trip/</link>
+        <guid isPermaLink="true">http://brianmaierjr.github.com/long-haul/blog/west-coast-trip/</guid>
+        
+        <category>photo</category>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Calculating the 2nd force constant from LAMMPS</title>
+        <description>&lt;h2 id=&quot;2nd-force-constant-from-lammps&quot;&gt;2nd Force Constant From Lammps&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;In one of my  project, I need to calculate the force constant between differnet paires of atoms, and there is how I do it.&lt;/p&gt;
@@ -33,12 +147,11 @@ we can then moving one atom at each time, and the from the force of other atoms,
   &lt;li&gt;In detials, I build a equilibrium lattice  in LAMMPS first, then I moved the atoms in center cell at one direction at each time, and dumped out the force on each atoms. The LAMMPS scirpts read as below:&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;group cAtom id 249
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;group cAtom id 249
 displace_atoms cAtom move 0.0 0.001 0.0 units box
 dump 1 all custom 1 force_12.txt id fx fy fz
 dump_modify 1 sort id format  &quot;%d %10.15g %10.15g %10.15g&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Then I used a python script to extrac the force constant between atom pairs.&lt;/li&gt;
@@ -52,33 +165,67 @@ dump_modify 1 sort id format  &quot;%d %10.15g %10.15g %10.15g&quot;
 &lt;/ul&gt;
 
 </description>
-				<pubDate>Thu, 18 Jan 2018 00:00:00 +0800</pubDate>
-				<link>http://localhost:4000/blog/2018/01/18/2nd-force-constant-lammps.html</link>
-				<guid isPermaLink="true">http://localhost:4000/blog/2018/01/18/2nd-force-constant-lammps.html</guid>
-			</item>
-		
-			<item>
-				<title>photo people</title>
-				<description>&lt;p&gt;&lt;img src=&quot;/images/test.jpg&quot; alt=&quot;图片&quot; /&gt;&lt;/p&gt;
+        
+          <description>&lt;h2 id=&quot;2nd-force-constant-from-lammps&quot;&gt;2nd Force Constant From Lammps&lt;/h2&gt;
 
 </description>
-				<pubDate>Thu, 11 Jan 2018 00:00:00 +0800</pubDate>
-				<link>http://localhost:4000/2018/01/11/photo-test2.html</link>
-				<guid isPermaLink="true">http://localhost:4000/2018/01/11/photo-test2.html</guid>
-			</item>
-		
-			<item>
-				<title>photos dog</title>
-				<description>&lt;p&gt;&lt;img src=&quot;/images/dog.jpg&quot; alt=&quot;图片&quot; /&gt;&lt;/p&gt;
+        
+        <pubDate>Thu, 18 Jan 2018 00:00:00 +0900</pubDate>
+        <link>http://brianmaierjr.github.com/long-haul/blog/2nd-force-constant-lammps/</link>
+        <guid isPermaLink="true">http://brianmaierjr.github.com/long-haul/blog/2nd-force-constant-lammps/</guid>
+        
+        <category>technique</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>photo people</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/test.jpg&quot; alt=&quot;图片&quot; /&gt;&lt;/p&gt;
+
 </description>
-				<pubDate>Thu, 11 Jan 2018 00:00:00 +0800</pubDate>
-				<link>http://localhost:4000/2018/01/11/photo-test.html</link>
-				<guid isPermaLink="true">http://localhost:4000/2018/01/11/photo-test.html</guid>
-			</item>
-		
-			<item>
-				<title>Externed Green's Function Methods</title>
-				<description>&lt;h2 id=&quot;original-atomistic-greens-function-methods&quot;&gt;Original Atomistic Green’s Function Methods&lt;/h2&gt;
+        
+          <description>&lt;p&gt;&lt;img src=&quot;/images/test.jpg&quot; alt=&quot;图片&quot; /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 11 Jan 2018 00:00:00 +0900</pubDate>
+        <link>http://brianmaierjr.github.com/long-haul/blog/photo-test2/</link>
+        <guid isPermaLink="true">http://brianmaierjr.github.com/long-haul/blog/photo-test2/</guid>
+        
+        <category>photo</category>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>photos dog</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/dog.jpg&quot; alt=&quot;图片&quot; /&gt;&lt;/p&gt;
+</description>
+        
+          <description>&lt;p&gt;&lt;img src=&quot;/images/dog.jpg&quot; alt=&quot;图片&quot; /&gt;&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 11 Jan 2018 00:00:00 +0900</pubDate>
+        <link>http://brianmaierjr.github.com/long-haul/blog/photo-test/</link>
+        <guid isPermaLink="true">http://brianmaierjr.github.com/long-haul/blog/photo-test/</guid>
+        
+        <category>photo</category>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Externed Green's Function Methods</title>
+        <description>&lt;h2 id=&quot;original-atomistic-greens-function-methods&quot;&gt;Original Atomistic Green’s Function Methods&lt;/h2&gt;
 
 &lt;hr /&gt;
 
@@ -142,28 +289,51 @@ H_1      	&amp; \tau_1^{+} 	&amp; 0  \\
 &lt;/ul&gt;
 
 </description>
-				<pubDate>Mon, 25 Dec 2017 00:00:00 +0800</pubDate>
-				<link>http://localhost:4000/2017/12/25/phonon-transmission-green-function.html</link>
-				<guid isPermaLink="true">http://localhost:4000/2017/12/25/phonon-transmission-green-function.html</guid>
-			</item>
-		
-			<item>
-				<title>Some old references on single crystal C60</title>
-				<description>&lt;h1 id=&quot;david-et-al1993-high-resolution-neutron-powder-diffraction-a-case-study-of-the-structure-of-c60&quot;&gt;&lt;a href=&quot;http://rspa.royalsocietypublishing.org/content/442/1914/129.article-info&quot;&gt;David et al.,1993, High resolution neutron powder diffraction: a case study of the structure of C60&lt;/a&gt;&lt;/h1&gt;
+        
+          <description>&lt;h2 id=&quot;original-atomistic-greens-function-methods&quot;&gt;Original Atomistic Green’s Function Methods&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 25 Dec 2017 00:00:00 +0900</pubDate>
+        <link>http://brianmaierjr.github.com/long-haul/blog/phonon-transmission-green-function/</link>
+        <guid isPermaLink="true">http://brianmaierjr.github.com/long-haul/blog/phonon-transmission-green-function/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Some old references on single crystal C60</title>
+        <description>&lt;h1 id=&quot;david-et-al1993-high-resolution-neutron-powder-diffraction-a-case-study-of-the-structure-of-c60&quot;&gt;&lt;a href=&quot;http://rspa.royalsocietypublishing.org/content/442/1914/129.article-info&quot;&gt;David et al.,1993, High resolution neutron powder diffraction: a case study of the structure of C60&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
   &lt;li&gt;The bonding anisotropy in C60 plays a crucial role in the reorientational molecular motion and consequently the rich structural variation of crystalline C60 as a function of temperature.&lt;/li&gt;
   &lt;li&gt;Reorientational correlation times are around 9 ps at 280 K.&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
-				<pubDate>Tue, 26 Sep 2017 03:03:52 +0800</pubDate>
-				<link>http://localhost:4000/research/2017/09/26/old-papers-about-C60.html</link>
-				<guid isPermaLink="true">http://localhost:4000/research/2017/09/26/old-papers-about-C60.html</guid>
-			</item>
-		
-			<item>
-				<title>Experimental techniques for nanoscale thermal measurement</title>
-				<description>&lt;h1 id=&quot;some-review-article-on-this-topic&quot;&gt;Some review article on this topic&lt;/h1&gt;
+        
+          <description>&lt;h1 id=&quot;david-et-al1993-high-resolution-neutron-powder-diffraction-a-case-study-of-the-structure-of-c60&quot;&gt;&lt;a href=&quot;http://rspa.royalsocietypublishing.org/content/442/1914/129.article-info&quot;&gt;David et al.,1993, High resolution neutron powder diffraction: a case study of the structure of C60&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;The bonding anisotropy in C60 plays a crucial role in the reorientational molecular motion and consequently the rich structural variation of crystalline C60 as a function of temperature.&lt;/li&gt;
+  &lt;li&gt;Reorientational correlation times are around 9 ps at 280 K.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        
+        <pubDate>Tue, 26 Sep 2017 04:03:52 +0900</pubDate>
+        <link>http://brianmaierjr.github.com/long-haul/blog/old-papers-about-C60/</link>
+        <guid isPermaLink="true">http://brianmaierjr.github.com/long-haul/blog/old-papers-about-C60/</guid>
+        
+        
+        <category>research</category>
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Experimental techniques for nanoscale thermal measurement</title>
+        <description>&lt;h1 id=&quot;some-review-article-on-this-topic&quot;&gt;Some review article on this topic&lt;/h1&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://pubs.rsc.org/en/content/articlehtml/2013/cp/c2cp43771f&quot;&gt;Nanoscale heat transfer – from computation to experiment, 2013&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.tandfonline.com/doi/abs/10.1080/15567265.2015.1045640&quot;&gt;Advances in Studying Phonon MFP Dependent Contributions to Thermal Conductivity, 2015&lt;/a&gt;&lt;/li&gt;
@@ -176,13 +346,13 @@ H_1      	&amp; \tau_1^{+} 	&amp; 0  \\
   &lt;li&gt;Confocal micro-Raman method
     &lt;ul&gt;
       &lt;li&gt;single-layer and few-layer graphene&lt;/li&gt;
-      &lt;li&gt;&lt;img src=&quot;http://localhost:4000/assets/Rman_spectrometer_TC.png&quot; alt=&quot;here&quot; /&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src=&quot;http://brianmaierjr.github.com/long-haul/assets/Rman_spectrometer_TC.png&quot; alt=&quot;here&quot; /&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Thermal bridge method
     &lt;ul&gt;
       &lt;li&gt;multi-walled carbon nanotures&lt;/li&gt;
-      &lt;li&gt;&lt;img src=&quot;http://localhost:4000/assets/microBridge.png&quot; alt=&quot;here&quot; /&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src=&quot;http://brianmaierjr.github.com/long-haul/assets/microBridge.png&quot; alt=&quot;here&quot; /&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -214,97 +384,36 @@ H_1      	&amp; \tau_1^{+} 	&amp; 0  \\
   &lt;li&gt;substrate effects&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-				<pubDate>Tue, 19 Sep 2017 08:45:40 +0800</pubDate>
-				<link>http://localhost:4000/research/2017/09/19/nanoscale-thermal-measurement.html</link>
-				<guid isPermaLink="true">http://localhost:4000/research/2017/09/19/nanoscale-thermal-measurement.html</guid>
-			</item>
-		
-			<item>
-				<title>Phonon transport from small heat source</title>
-				<description>&lt;h1 id=&quot;couple-of-references&quot;&gt;couple of references&lt;/h1&gt;
+        
+          <description>&lt;h1 id=&quot;some-review-article-on-this-topic&quot;&gt;Some review article on this topic&lt;/h1&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1708.04906.pdf&quot;&gt;Quasiballistic heat removal from small sources studied from first principles&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.pnas.org/content/112/16/4846.short&quot;&gt;A new regime of nanoscale thermal transport: Collective diffusion increases dissipation efficiency&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-				<pubDate>Mon, 18 Sep 2017 05:22:35 +0800</pubDate>
-				<link>http://localhost:4000/research/2017/09/18/ballistic-phonon-small-heatsource.html</link>
-				<guid isPermaLink="true">http://localhost:4000/research/2017/09/18/ballistic-phonon-small-heatsource.html</guid>
-			</item>
-		
-			<item>
-				<title>Vibration modes in amorphous materials</title>
-				<description>&lt;h1 id=&quot;vibrations-in-amorphous-materials&quot;&gt;vibrations in amorphous materials&lt;/h1&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;While in crystals heat is carried by propagating lattice waves, or phonons, in amorphous solids heat carriers are classified as propagons, diffusions, and locons depending on the &lt;strong&gt;degree of delocalization&lt;/strong&gt; of the atomic vibration and its mean free path &lt;sup id=&quot;fnref:fn1&quot;&gt;&lt;a href=&quot;#fn:fn1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&quot;fnref:fn2&quot;&gt;&lt;a href=&quot;#fn:fn2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In a-Si, prior works concludeed that non-propagating waves are the dominant contributors to heat transport, while propagating waves are restricted to frequency less than a few THz and are scattered by &lt;strong&gt;anharmonicity&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Current works on the thermal transport in a-Si:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://aip.scitation.org/doi/abs/10.1063/1.3574366&quot;&gt;Heat transport in amorphous silicon: Interplay between morphology and disorder&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Equilibrum molecular dynamics&lt;/li&gt;
-    &lt;/ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pubs.rsc.org/en/content/articlehtml/2013/cp/c2cp43771f&quot;&gt;Nanoscale heat transfer – from computation to experiment, 2013&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.tandfonline.com/doi/abs/10.1080/15567265.2015.1045640&quot;&gt;Advances in Studying Phonon MFP Dependent Contributions to Thermal Conductivity, 2015&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://iopscience.iop.org/article/10.1088/0953-8984/27/5/053202/meta&quot;&gt;Advances in the measurement and computation of thermal phonon transport properties,2015&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://iopscience.iop.org/article/10.1088/0953-8984/28/48/483001/pdf&quot;&gt;Phonon thermal conduction in novel 2D materials, 2017&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1705.06156&quot;&gt;Phononic thermal properties of two-dimensional materials, 2017&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1002/jrs.5230/full&quot;&gt;Raman-based technique for measuring thermal conductivity of graphene and related materials&lt;/a&gt;
+    &lt;h1 id=&quot;experimental-techniques&quot;&gt;Experimental techniques&lt;/h1&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://journals.aps.org/prb/abstract/10.1103/PhysRevB.89.144303&quot;&gt;Thermal conductivity accumulation in amorphous silica and amorphous silicon&lt;/a&gt;
+  &lt;li&gt;Confocal micro-Raman method
     &lt;ul&gt;
-      &lt;li&gt;Normal-mode analysis&lt;/li&gt;
-      &lt;li&gt;Plane-wave-like propogation is not affected by atomic disorder&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nature.com/articles/srep37675&quot;&gt;Examining the Validity of the Phonon Gas Model in Amorphous Materials&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;phonon gas model is not applicable to amorphous materials&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Dynamics structure factor
-&lt;img src=&quot;/assets/Dynamics_structure_factor.png&quot; alt=&quot;example&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;propagating elastic waves dominate the thermal conduction and are scattered by elastic fluctuations rather than anharmonicity.&lt;/li&gt;
-  &lt;li&gt;explicitly demonstrate the propagating nature of vibration with frequency approaching 10 THz using a triggered wave computational experiment.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:fn1&quot;&gt;
-      &lt;p&gt;P. B. Allen, J. L. Feldman, J. Fabian, and F. Wooten, Philosophical Magazine B 79, 1715(1999). &lt;a href=&quot;#fnref:fn1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:fn2&quot;&gt;
-      &lt;p&gt;J. L. Feldman, M. D. Kluge, P. B. Allen, and F. Wooten, Physical Review B 48, 12589 (1993) &lt;a href=&quot;#fnref:fn2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-				<pubDate>Sun, 17 Sep 2017 23:54:52 +0800</pubDate>
-				<link>http://localhost:4000/research/2017/09/17/vibration_mode_amorphous.html</link>
-				<guid isPermaLink="true">http://localhost:4000/research/2017/09/17/vibration_mode_amorphous.html</guid>
-			</item>
-		
-			<item>
-				<title>Integration Algorithm in Molecular Dynamics Simulaitons</title>
-				<description>&lt;h1 id=&quot;integration-algorithm&quot;&gt;Integration Algorithm&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.chem.purdue.edu/slipchenko/courses/chem579/files/books/leach_ch6_md.pdf&quot;&gt;reference&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The computational effort required is a major consideration in choosing which algorithm to use.&lt;/li&gt;
-  &lt;li&gt;An algorithm that is normally more expensive (for example, requires more than one force evaluation per iteration) may permit a significantly longer time step to be used and so, in fact, may be more cost-effective.&lt;/li&gt;
-  &lt;li&gt;One of the most important considerations is the energy conservation.
-    &lt;ul&gt;
-      &lt;li&gt;a variation of one part in 10^4 is generally considered acceptable.&lt;/li&gt;
+      &lt;li&gt;single-layer and few-layer graphene&lt;/li&gt;
+      &lt;li&gt;&lt;img src=&quot;http://brianmaierjr.github.com/long-haul/assets/Rman_spectrometer_TC.png&quot; alt=&quot;here&quot; /&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
-				<pubDate>Fri, 15 Sep 2017 23:18:13 +0800</pubDate>
-				<link>http://localhost:4000/research/2017/09/15/integration-algorithm-MD.html</link>
-				<guid isPermaLink="true">http://localhost:4000/research/2017/09/15/integration-algorithm-MD.html</guid>
-			</item>
-		
-	</channel>
+        
+        <pubDate>Tue, 19 Sep 2017 09:45:40 +0900</pubDate>
+        <link>http://brianmaierjr.github.com/long-haul/blog/nanoscale-thermal-measurement/</link>
+        <guid isPermaLink="true">http://brianmaierjr.github.com/long-haul/blog/nanoscale-thermal-measurement/</guid>
+        
+        
+        <category>research</category>
+        
+      </item>
+      
+    
+  </channel>
 </rss>
