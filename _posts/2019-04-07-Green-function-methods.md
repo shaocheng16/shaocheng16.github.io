@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Calculating Phonon transmission from Atomistic Green's function methods"
+title:  "Atomistic Green's function methods"
 categories: blog
 tags: technique
 data: 

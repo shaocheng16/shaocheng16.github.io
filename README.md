@@ -31,3 +31,11 @@ The main settings can be found inside the `_config.yml` file:
 - **social** diverse social media usernames (optional)
 - **google_analytics** Google Analytics key (optional)
 
+
+---
+
+- `_includes/header.html`
+    + configure the header 
+
+- `index.html`
+    + recent post 
