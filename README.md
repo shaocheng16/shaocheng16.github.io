@@ -39,3 +39,7 @@ The main settings can be found inside the `_config.yml` file:
 
 - `index.html`
     + recent post 
+
+- photo gallery
+    + https://learn.cloudcannon.com/jekyll/photo-gallery/
+    + https://talk.jekyllrb.com/t/jekyll-photo-gallery/1499

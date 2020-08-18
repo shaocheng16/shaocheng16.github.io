@@ -20,6 +20,8 @@ navigation:
     url: /research
   - title: Contact
     url: /contact
+  - title: Gallery
+    url: /photo-gallery
 
 social:
   github: name
