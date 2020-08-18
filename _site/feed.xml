@@ -3,11 +3,39 @@
   <channel>
     <title>Cheng Shao</title>
     <description>Cheng Shao's personal blog</description>
-    <link>http://brianmaierjr.github.com/long-haul/</link>
-    <atom:link href="http://brianmaierjr.github.com/long-haul/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 29 Oct 2019 15:16:34 +0900</pubDate>
-    <lastBuildDate>Tue, 29 Oct 2019 15:16:34 +0900</lastBuildDate>
+    <link>https://github.com/shaocheng16/</link>
+    <atom:link href="https://github.com/shaocheng16/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 18 Aug 2020 19:21:39 +0900</pubDate>
+    <lastBuildDate>Tue, 18 Aug 2020 19:21:39 +0900</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      
+      <item>
+        <title>Ionic liquids</title>
+        <description>&lt;h2 id=&quot;ionic-liquids-application&quot;&gt;Ionic liquids application&lt;/h2&gt;
+
+&lt;p&gt;Bahamontes lanterne rouge normandie belgium. Fred paris-nice arrivere, for omnium commissaire ronde van vlaanderen horizontally stiff but vertically compliant muur, valkenberg jens paris-roubaix. Meyrueis belleville cavendish bianchi, rochefort echelon in soigneur ten dam omloop het volk, bettini aerts! Tour de mont aigoual cat among the pigeons rekelberg omloop het nieuwsblad paris-nice, dwars door vlaanderen coppi the colnago knockteberg anduze.&lt;/p&gt;
+
+&lt;p&gt;Kaperij lanterne rouge musette rund um koln bruges thor smash, geraardsbergen riis petacchi molteni pedaling squares. Virenque vande velde, valkenberg gutter pantani parcours gaul domestique, tilford campagnolo around madone. Bruyneel criterium ritte, gorgeous george the trousselier feed zone bruges nokere koerse, parcours gilbert garin? Anquetil valkenberg bettini cat among the pigeons.&lt;/p&gt;
+
+&lt;p&gt;Campagnolo the hors delai de wolf as the toto turns venga venga venga, sanchez nys. Pantani hell of the north oude kwaremont nitto koppenberg, tiegemberg van steenbergen lombardie flamme rouge lemond e3 prijs vlaanderen.&lt;/p&gt;
+
+&lt;p&gt;Planckaert berg ter stene freire gorgeous george in rouleur derby, vaughters fabianese omloop het volk rouleur play rouleur derby. Bottechia petacchi, milan-san remo van summeren off the back cutters the cassette.&lt;/p&gt;
+
+&lt;p&gt;Nyvelocity pyrenees vande velde merckx. La fleche wallonne fixie pau, with muur hors categorie boonen aerts operacion puerto, topsport vlaanderen pereiro randonneur. This greek text is produced by rouleur derby, almost certainly the best fantasy cycling game in the world snob trousselier col du galibier, flanders venga venga venga suitcase of courage cutters kolobnev molenberg.&lt;/p&gt;
+</description>
+        
+          <description>&lt;h2 id=&quot;ionic-liquids-application&quot;&gt;Ionic liquids application&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Tue, 18 Aug 2020 00:00:00 +0900</pubDate>
+        <link>https://github.com/shaocheng16/blog/ionic-liquids-paper/</link>
+        <guid isPermaLink="true">https://github.com/shaocheng16/blog/ionic-liquids-paper/</guid>
+        
+        
+      </item>
+      
     
       
       <item>
@@ -30,8 +58,8 @@ snakeviz profile.log
 </description>
         
         <pubDate>Sun, 07 Apr 2019 00:00:00 +0900</pubDate>
-        <link>http://brianmaierjr.github.com/long-haul/blog/python-some-commands/</link>
-        <guid isPermaLink="true">http://brianmaierjr.github.com/long-haul/blog/python-some-commands/</guid>
+        <link>https://github.com/shaocheng16/blog/python-some-commands/</link>
+        <guid isPermaLink="true">https://github.com/shaocheng16/blog/python-some-commands/</guid>
         
         <category>technique</category>
         
@@ -61,8 +89,8 @@ git reset --hard &amp;lt;id&amp;gt;
 </description>
         
         <pubDate>Sun, 07 Apr 2019 00:00:00 +0900</pubDate>
-        <link>http://brianmaierjr.github.com/long-haul/blog/git-useful-command/</link>
-        <guid isPermaLink="true">http://brianmaierjr.github.com/long-haul/blog/git-useful-command/</guid>
+        <link>https://github.com/shaocheng16/blog/git-useful-command/</link>
+        <guid isPermaLink="true">https://github.com/shaocheng16/blog/git-useful-command/</guid>
         
         <category>technique</category>
         
@@ -99,8 +127,8 @@ git reset --hard &amp;lt;id&amp;gt;
 </description>
         
         <pubDate>Sun, 07 Apr 2019 00:00:00 +0900</pubDate>
-        <link>http://brianmaierjr.github.com/long-haul/blog/Green-function-methods/</link>
-        <guid isPermaLink="true">http://brianmaierjr.github.com/long-haul/blog/Green-function-methods/</guid>
+        <link>https://github.com/shaocheng16/blog/Green-function-methods/</link>
+        <guid isPermaLink="true">https://github.com/shaocheng16/blog/Green-function-methods/</guid>
         
         <category>technique</category>
         
@@ -120,8 +148,8 @@ git reset --hard &amp;lt;id&amp;gt;
 </description>
         
         <pubDate>Thu, 18 Jan 2018 00:00:00 +0900</pubDate>
-        <link>http://brianmaierjr.github.com/long-haul/blog/west-coast-trip/</link>
-        <guid isPermaLink="true">http://brianmaierjr.github.com/long-haul/blog/west-coast-trip/</guid>
+        <link>https://github.com/shaocheng16/blog/west-coast-trip/</link>
+        <guid isPermaLink="true">https://github.com/shaocheng16/blog/west-coast-trip/</guid>
         
         <category>photo</category>
         
@@ -171,8 +199,8 @@ dump_modify 1 sort id format  &quot;%d %10.15g %10.15g %10.15g&quot;
 </description>
         
         <pubDate>Thu, 18 Jan 2018 00:00:00 +0900</pubDate>
-        <link>http://brianmaierjr.github.com/long-haul/blog/2nd-force-constant-lammps/</link>
-        <guid isPermaLink="true">http://brianmaierjr.github.com/long-haul/blog/2nd-force-constant-lammps/</guid>
+        <link>https://github.com/shaocheng16/blog/2nd-force-constant-lammps/</link>
+        <guid isPermaLink="true">https://github.com/shaocheng16/blog/2nd-force-constant-lammps/</guid>
         
         <category>technique</category>
         
@@ -194,8 +222,8 @@ dump_modify 1 sort id format  &quot;%d %10.15g %10.15g %10.15g&quot;
 </description>
         
         <pubDate>Thu, 11 Jan 2018 00:00:00 +0900</pubDate>
-        <link>http://brianmaierjr.github.com/long-haul/blog/photo-test2/</link>
-        <guid isPermaLink="true">http://brianmaierjr.github.com/long-haul/blog/photo-test2/</guid>
+        <link>https://github.com/shaocheng16/blog/photo-test2/</link>
+        <guid isPermaLink="true">https://github.com/shaocheng16/blog/photo-test2/</guid>
         
         <category>photo</category>
         
@@ -213,8 +241,8 @@ dump_modify 1 sort id format  &quot;%d %10.15g %10.15g %10.15g&quot;
 </description>
         
         <pubDate>Thu, 11 Jan 2018 00:00:00 +0900</pubDate>
-        <link>http://brianmaierjr.github.com/long-haul/blog/photo-test/</link>
-        <guid isPermaLink="true">http://brianmaierjr.github.com/long-haul/blog/photo-test/</guid>
+        <link>https://github.com/shaocheng16/blog/photo-test/</link>
+        <guid isPermaLink="true">https://github.com/shaocheng16/blog/photo-test/</guid>
         
         <category>photo</category>
         
@@ -295,8 +323,8 @@ H_1      	&amp; \tau_1^{+} 	&amp; 0  \\
 </description>
         
         <pubDate>Mon, 25 Dec 2017 00:00:00 +0900</pubDate>
-        <link>http://brianmaierjr.github.com/long-haul/blog/phonon-transmission-green-function/</link>
-        <guid isPermaLink="true">http://brianmaierjr.github.com/long-haul/blog/phonon-transmission-green-function/</guid>
+        <link>https://github.com/shaocheng16/blog/phonon-transmission-green-function/</link>
+        <guid isPermaLink="true">https://github.com/shaocheng16/blog/phonon-transmission-green-function/</guid>
         
         
       </item>
@@ -321,93 +349,8 @@ H_1      	&amp; \tau_1^{+} 	&amp; 0  \\
 </description>
         
         <pubDate>Tue, 26 Sep 2017 04:03:52 +0900</pubDate>
-        <link>http://brianmaierjr.github.com/long-haul/blog/old-papers-about-C60/</link>
-        <guid isPermaLink="true">http://brianmaierjr.github.com/long-haul/blog/old-papers-about-C60/</guid>
-        
-        
-        <category>research</category>
-        
-      </item>
-      
-    
-      
-      <item>
-        <title>Experimental techniques for nanoscale thermal measurement</title>
-        <description>&lt;h1 id=&quot;some-review-article-on-this-topic&quot;&gt;Some review article on this topic&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://pubs.rsc.org/en/content/articlehtml/2013/cp/c2cp43771f&quot;&gt;Nanoscale heat transfer – from computation to experiment, 2013&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.tandfonline.com/doi/abs/10.1080/15567265.2015.1045640&quot;&gt;Advances in Studying Phonon MFP Dependent Contributions to Thermal Conductivity, 2015&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://iopscience.iop.org/article/10.1088/0953-8984/27/5/053202/meta&quot;&gt;Advances in the measurement and computation of thermal phonon transport properties,2015&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://iopscience.iop.org/article/10.1088/0953-8984/28/48/483001/pdf&quot;&gt;Phonon thermal conduction in novel 2D materials, 2017&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1705.06156&quot;&gt;Phononic thermal properties of two-dimensional materials, 2017&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1002/jrs.5230/full&quot;&gt;Raman-based technique for measuring thermal conductivity of graphene and related materials&lt;/a&gt;
-    &lt;h1 id=&quot;experimental-techniques&quot;&gt;Experimental techniques&lt;/h1&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Confocal micro-Raman method
-    &lt;ul&gt;
-      &lt;li&gt;single-layer and few-layer graphene&lt;/li&gt;
-      &lt;li&gt;&lt;img src=&quot;http://brianmaierjr.github.com/long-haul/assets/Rman_spectrometer_TC.png&quot; alt=&quot;here&quot; /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Thermal bridge method
-    &lt;ul&gt;
-      &lt;li&gt;multi-walled carbon nanotures&lt;/li&gt;
-      &lt;li&gt;&lt;img src=&quot;http://brianmaierjr.github.com/long-haul/assets/microBridge.png&quot; alt=&quot;here&quot; /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Time-domain thermoreflectance method&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Scanning thermal microscope (SThM)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;3 omega method&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;thermal flash method&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;low-dimensional-materials&quot;&gt;low dimensional materials&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;nanowires&lt;/li&gt;
-  &lt;li&gt;CNT&lt;/li&gt;
-  &lt;li&gt;Graphene&lt;/li&gt;
-  &lt;li&gt;h-BN&lt;/li&gt;
-  &lt;li&gt;MoS2&lt;/li&gt;
-  &lt;li&gt;Black phosphorous&lt;/li&gt;
-  &lt;li&gt;Silicene
-    &lt;h1 id=&quot;interesting-problems&quot;&gt;interesting problems&lt;/h1&gt;
-  &lt;/li&gt;
-  &lt;li&gt;size dependent (converge or diverge)&lt;/li&gt;
-  &lt;li&gt;layer thickness dependence&lt;/li&gt;
-  &lt;li&gt;Strain effects&lt;/li&gt;
-  &lt;li&gt;substrate effects&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        
-          <description>&lt;h1 id=&quot;some-review-article-on-this-topic&quot;&gt;Some review article on this topic&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://pubs.rsc.org/en/content/articlehtml/2013/cp/c2cp43771f&quot;&gt;Nanoscale heat transfer – from computation to experiment, 2013&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.tandfonline.com/doi/abs/10.1080/15567265.2015.1045640&quot;&gt;Advances in Studying Phonon MFP Dependent Contributions to Thermal Conductivity, 2015&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://iopscience.iop.org/article/10.1088/0953-8984/27/5/053202/meta&quot;&gt;Advances in the measurement and computation of thermal phonon transport properties,2015&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://iopscience.iop.org/article/10.1088/0953-8984/28/48/483001/pdf&quot;&gt;Phonon thermal conduction in novel 2D materials, 2017&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1705.06156&quot;&gt;Phononic thermal properties of two-dimensional materials, 2017&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1002/jrs.5230/full&quot;&gt;Raman-based technique for measuring thermal conductivity of graphene and related materials&lt;/a&gt;
-    &lt;h1 id=&quot;experimental-techniques&quot;&gt;Experimental techniques&lt;/h1&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Confocal micro-Raman method
-    &lt;ul&gt;
-      &lt;li&gt;single-layer and few-layer graphene&lt;/li&gt;
-      &lt;li&gt;&lt;img src=&quot;http://brianmaierjr.github.com/long-haul/assets/Rman_spectrometer_TC.png&quot; alt=&quot;here&quot; /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        
-        <pubDate>Tue, 19 Sep 2017 09:45:40 +0900</pubDate>
-        <link>http://brianmaierjr.github.com/long-haul/blog/nanoscale-thermal-measurement/</link>
-        <guid isPermaLink="true">http://brianmaierjr.github.com/long-haul/blog/nanoscale-thermal-measurement/</guid>
+        <link>https://github.com/shaocheng16/blog/old-papers-about-C60/</link>
+        <guid isPermaLink="true">https://github.com/shaocheng16/blog/old-papers-about-C60/</guid>
         
         
         <category>research</category>

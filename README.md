@@ -6,7 +6,7 @@ If you really enjoy Long Haul and want to give me credit somewhere on the intern
 
 #### [View Demo](http://brianmaierjr.com/long-haul)
 
-## Features
+## Backgound
 
 - Minimal, Type Focused Design
 - Built with GULP + SASS + BROWSERSYNC + AUTOPREFIXER

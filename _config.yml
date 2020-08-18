@@ -1,7 +1,7 @@
 title: Cheng Shao
 description: Cheng Shao's personal blog
 
-url: http://brianmaierjr.github.com/long-haul
+url: https://github.com/shaocheng16
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -9,12 +9,12 @@ permalink: blog/:title/
 markdown: kramdown
 highlighter: rouge
 plugins: [jekyll-paginate]
-paginate: 5
+paginate: 10
 
 navigation:
   - title: Home
     url: /index.html
-  - title: About
+  - title: About Me
     url: /about
   - title: Contact
     url: /contact
