@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "CHENG SHAO"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,32 +9,30 @@ redirect_from:
 
 {% include base_path %}
 
+--------------------------------------------------
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Automation, Huazhong University of Science and Technology, 2013
+* Ph.D in Power Engineering and Engineering Thermophysics, Shanghai Jiao Tong Univesity, 2018
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2016: Visiting Scholar
+  * Carnegie Mellon University
+  * Department of Mechanical Engineering
+  * Supervisor: Alan J. H. McGaughey
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
+* 2019: Visiting Researcher
+  * KTH Royal Institute of Technology in Stockholm
+  * Department of Mathematics 
   * Supervisor: Professor Hub
+
+* 2018-2022: Postdoctoral Researcher
+  * The University of Tokyo
+  * Department of Mechanical Engineering
+  * Supervisor: Junichiro Shiomi
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Publications
 ======
